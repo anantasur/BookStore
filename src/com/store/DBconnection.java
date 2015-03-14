@@ -1,5 +1,7 @@
 package com.store;
 
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -89,17 +91,55 @@ public class DBconnection {
         return "SUCCESS";
     }
 
+    public String deleteTable(String TABLE_NAME) throws SQLException, ClassNotFoundException {
+        String s1 = new String("DROP TABLE \"" + TABLE_NAME + "\"");
+        try {
+            connection = this.init();
+            stmt = connection.createStatement();
+            stmt.execute(s1);
+            stmt.close();
+        } finally {
+            if (connection != null)
+                this.close(connection);
+        }
+        return "SUCCESS";
+    }
+
+    private String createTableBook() throws SQLException, ClassNotFoundException {
+        connection = this.init();
+        String bookCreateQuery = "CREATE TABLE BOOK (" +
+                "ISBN NUMBER(13) NOT NULL, " +
+                "TITLE VARCHAR(100), " +
+                "EDITION VARCHAR(100), " +
+                "AUTHOR VARCHAR(100), " +
+                "PUBLISHER VARCHAR(100), " +
+                "PRICE NUMBER(4), " +
+                "PRIMARY KEY(ISBN))";
+        try {
+            stmt = connection.createStatement();
+            System.out.println("bookCreateQuery "+ bookCreateQuery);
+            stmt.executeUpdate(bookCreateQuery);
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
+        return "SUCCESS";
+    }
+
     public static void main(String args[]) {
         String s = "";
         DBconnection oracleOperations = new DBconnection();
         try {
             System.out.println("deleting user " + s);
-            s=oracleOperations.deleteUserOracle("storeManager");
+            s = oracleOperations.deleteUserOracle("storeManager");
             System.out.println("creating user ");
             s = oracleOperations.createUserOracle("storeManager", "storeManager", "", "");
             System.out.println("created user is " + s);
             s=oracleOperations.grantRightsOracle("storeManager");
             System.out.println("granting rights " + s);
+            s=oracleOperations.deleteTable("BOOK");
+            System.out.println("deleted table book");
+            s=oracleOperations.createTableBook();
+            System.out.println("table Book created "+ s);
         } catch (Exception exception) {
             exception.printStackTrace();
         }
