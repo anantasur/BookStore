@@ -1,7 +1,5 @@
 package com.store;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -105,8 +103,11 @@ public class DBconnection {
         return "SUCCESS";
     }
 
-    private String createTableBook() throws SQLException, ClassNotFoundException {
+    private String createTables() throws SQLException, ClassNotFoundException {
         connection = this.init();
+        String categoriesQuery = "CREATE TABLE CATEGORY (ID NUMBER(5) NOT NULL," +
+                " NAME VARCHAR(100)," +
+                " PRIMARY KEY(ID))";
         String bookCreateQuery = "CREATE TABLE BOOK (" +
                 "ISBN NUMBER(13) NOT NULL, " +
                 "TITLE VARCHAR(100), " +
@@ -114,13 +115,34 @@ public class DBconnection {
                 "AUTHOR VARCHAR(100), " +
                 "PUBLISHER VARCHAR(100), " +
                 "PRICE NUMBER(4), " +
-                "PRIMARY KEY(ISBN))";
+                "PRIMARY KEY(ISBN)," +
+                " CATEGORY_ID NUMBER(5) REFERENCES CATEGORY(ID))";
+        System.out.println(categoriesQuery);
+        System.out.println(bookCreateQuery);
+
         try {
             stmt = connection.createStatement();
             System.out.println("bookCreateQuery "+ bookCreateQuery);
-            stmt.executeUpdate(bookCreateQuery);
-        }catch(Exception e) {
+            stmt.addBatch(categoriesQuery);
+            stmt.addBatch(bookCreateQuery);
+            stmt.executeBatch();
+//            stmt.executeUpdate(categoriesQuery);
+        }catch(SQLException se){
+            se.printStackTrace();
+        }catch(Exception e){
             e.printStackTrace();
+        }finally {
+            try {
+                if (stmt != null)
+                    connection.close();
+            } catch (SQLException se) {
+                try {
+                    if (connection != null)
+                        connection.close();
+                } catch (SQLException e) {
+                    e.printStackTrace();
+                }
+            }
         }
         return "SUCCESS";
     }
@@ -138,7 +160,9 @@ public class DBconnection {
             System.out.println("granting rights " + s);
             s=oracleOperations.deleteTable("BOOK");
             System.out.println("deleted table book");
-            s=oracleOperations.createTableBook();
+            s=oracleOperations.deleteTable("CATEGORY");
+            System.out.println("deleted table category");
+            s=oracleOperations.createTables();
             System.out.println("table Book created "+ s);
         } catch (Exception exception) {
             exception.printStackTrace();
