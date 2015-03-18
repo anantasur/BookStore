@@ -32,14 +32,21 @@
       <file leaf-file-name="DBconnection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.1742574" vertical-offset="3808" max-vertical-offset="4752">
-              <caret line="163" column="54" selection-start-line="163" selection-start-column="54" selection-end-line="163" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.50710225" vertical-offset="3099" max-vertical-offset="5427">
+              <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1426586687002" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-                <marker date="1426586687002" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
-                <marker date="1426586687002" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
-                <marker date="1426586687002" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+                <marker date="1426665901318" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
+                <marker date="1426665901318" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
+                <marker date="1426665901318" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
+                <marker date="1426665901318" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+                <marker date="1426665901318" expanded="true" signature="4253:4375" placeholder="CREATE TABLE..STOCK..." />
+                <marker date="1426665901318" expanded="true" signature="4409:4551" placeholder="CREATE TABLE..CASHIER..." />
+                <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+                <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+                <marker date="1426665901318" expanded="true" signature="4582:4804" placeholder="CREATE TABLE..BILL..." />
+                <marker date="1426665901318" expanded="true" signature="4582:4806" placeholder="CREATE TABLE..BILL..." />
+                <marker date="1426665901318" expanded="true" signature="4582:4907" placeholder="CREATE TABLE..BILL..." />
               </folding>
             </state>
           </provider>
@@ -95,8 +102,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -500,12 +507,14 @@
       <workItem from="1426251537641" duration="2080000" />
       <workItem from="1426308260224" duration="13354000" />
       <workItem from="1426332571635" duration="17000" />
-      <workItem from="1426583682459" duration="3035000" />
+      <workItem from="1426583682459" duration="3635000" />
+      <workItem from="1426593261940" duration="1305000" />
+      <workItem from="1426661977982" duration="3926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18834000" />
+    <option name="totallyTimeSpent" value="24665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -522,17 +531,17 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3059896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.304698" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14971347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997396" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3986577" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -558,7 +567,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -573,14 +582,42 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4077">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4752">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426586687002" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426586687002" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426586687002" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426586687002" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
+            <marker date="1426665901318" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="4253:4375" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426665901318" expanded="true" signature="4409:4551" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4804" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4806" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4907" placeholder="CREATE TABLE..BILL..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4752">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1426665901318" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
+            <marker date="1426665901318" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="4253:4375" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426665901318" expanded="true" signature="4409:4551" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4804" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4806" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4907" placeholder="CREATE TABLE..BILL..." />
           </folding>
         </state>
       </provider>
@@ -591,10 +628,38 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426586687002" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426586687002" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426586687002" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426586687002" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
+            <marker date="1426665901318" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="4253:4375" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426665901318" expanded="true" signature="4409:4551" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4804" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4806" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4907" placeholder="CREATE TABLE..BILL..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4077">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1426665901318" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
+            <marker date="1426665901318" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="4253:4375" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426665901318" expanded="true" signature="4409:4551" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4804" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4806" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4907" placeholder="CREATE TABLE..BILL..." />
           </folding>
         </state>
       </provider>
@@ -620,10 +685,17 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426586687002" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426586687002" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426586687002" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426586687002" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
+            <marker date="1426665901318" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="4253:4375" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426665901318" expanded="true" signature="4409:4551" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4804" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4806" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4907" placeholder="CREATE TABLE..BILL..." />
           </folding>
         </state>
       </provider>
@@ -655,20 +727,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="297">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1742574" vertical-offset="3808" max-vertical-offset="4752">
-          <caret line="163" column="54" selection-start-line="163" selection-start-column="54" selection-end-line="163" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.50710225" vertical-offset="3099" max-vertical-offset="5427">
+          <caret line="128" column="26" selection-start-line="128" selection-start-column="26" selection-end-line="128" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426586687002" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426586687002" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426586687002" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426586687002" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
+            <marker date="1426665901318" expanded="true" signature="3679:3802" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4114" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="3839:4221" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426665901318" expanded="true" signature="4253:4375" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426665901318" expanded="true" signature="4409:4551" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4803" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4804" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4806" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426665901318" expanded="true" signature="4582:4907" placeholder="CREATE TABLE..BILL..." />
           </folding>
         </state>
       </provider>

@@ -117,16 +117,35 @@ public class DBconnection {
                 "PRICE NUMBER(4), " +
                 "PRIMARY KEY(ISBN)," +
                 " CATEGORY_ID NUMBER(5) REFERENCES CATEGORY(ID))";
+        String stockQuery = "CREATE TABLE STOCK (" +
+                "BOOK_ISBN NUMBER(13) REFERENCES BOOK(ISBN)," +
+                " UNITS NUMBER(4))";
+        String cashierQuery = "CREATE TABLE CASHIER (" +
+                "ID NUMBER(2) NOT NULL," +
+                " NAME VARCHAR(30)," +
+                " PRIMARY KEY(ID))";
+        String billQuery = "CREATE TABLE BILL (" +
+                "ID NUMBER(6) NOT NULL," +
+//                " DATE DATE(0)," +
+                " TIME TIMESTAMP," +
+                " CUSTOMER VARCHAR(30)," +
+                " TOTAL_COST NUMBER(6),"+
+                " CASHIER_ID NUMBER(2) REFERENCES CASHIER(ID)," +
+                " PRIMARY KEY(ID))";
         System.out.println(categoriesQuery);
         System.out.println(bookCreateQuery);
+        System.out.println(stockQuery);
+        System.out.println(cashierQuery);
+        System.out.println(billQuery);
 
         try {
             stmt = connection.createStatement();
-            System.out.println("bookCreateQuery "+ bookCreateQuery);
             stmt.addBatch(categoriesQuery);
             stmt.addBatch(bookCreateQuery);
+            stmt.addBatch(stockQuery);
+            stmt.addBatch(cashierQuery);
+            stmt.addBatch(billQuery);
             stmt.executeBatch();
-//            stmt.executeUpdate(categoriesQuery);
         }catch(SQLException se){
             se.printStackTrace();
         }catch(Exception e){
@@ -158,10 +177,16 @@ public class DBconnection {
             System.out.println("created user is " + s);
             s=oracleOperations.grantRightsOracle("storeManager");
             System.out.println("granting rights " + s);
-            s=oracleOperations.deleteTable("BOOK");
-            System.out.println("deleted table book");
-            s=oracleOperations.deleteTable("CATEGORY");
-            System.out.println("deleted table category");
+//            s=oracleOperations.deleteTable("STOCK");
+//            System.out.println("deleted table category");
+//            s=oracleOperations.deleteTable("BOOK");
+//            System.out.println("deleted table book");
+//            s=oracleOperations.deleteTable("CATEGORY");
+//            System.out.println("deleted table category");
+//            s=oracleOperations.deleteTable("BILL");
+//            System.out.println("deleted table bill");
+//            s=oracleOperations.deleteTable("CASHIER");
+//            System.out.println("deleted table cashier");
             s=oracleOperations.createTables();
             System.out.println("table Book created "+ s);
         } catch (Exception exception) {
