@@ -32,26 +32,26 @@
       <file leaf-file-name="DBconnection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92329544" vertical-offset="5074" max-vertical-offset="6021">
-              <caret line="212" column="46" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.73153406" vertical-offset="5155" max-vertical-offset="5967">
+              <caret line="210" column="49" selection-start-line="210" selection-start-column="49" selection-end-line="210" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-                <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-                <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-                <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-                <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-                <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-                <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-                <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-                <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-                <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-                <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-                <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-                <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-                <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-                <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-                <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+                <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+                <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+                <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+                <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+                <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+                <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+                <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+                <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+                <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+                <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+                <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+                <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+                <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+                <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+                <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+                <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
               </folding>
             </state>
           </provider>
@@ -107,8 +107,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -183,6 +181,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -520,21 +520,23 @@
       <workItem from="1426661977982" duration="4013000" />
       <workItem from="1426667366841" duration="2624000" />
       <workItem from="1426736197532" duration="238000" />
-      <workItem from="1426748392454" duration="4710000" />
+      <workItem from="1426748392454" duration="7693000" />
+      <workItem from="1426820117835" duration="599000" />
+      <workItem from="1426834312840" duration="614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32324000" />
+    <option name="totallyTimeSpent" value="36520000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="1" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -593,26 +595,86 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5157" max-vertical-offset="6021">
+          <caret line="200" column="35" selection-start-line="200" selection-start-column="35" selection-end-line="200" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5157" max-vertical-offset="6021">
+          <caret line="200" column="35" selection-start-line="200" selection-start-column="35" selection-end-line="200" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5427">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>
@@ -623,22 +685,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>
@@ -649,22 +711,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>
@@ -675,22 +737,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>
@@ -701,22 +763,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>
@@ -727,22 +789,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>
@@ -753,22 +815,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>
@@ -784,6 +846,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="81" max-vertical-offset="243">
           <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,22 +856,22 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>
@@ -824,13 +887,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -841,28 +898,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="740">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/store/DBconnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92329544" vertical-offset="5074" max-vertical-offset="6021">
-          <caret line="212" column="46" selection-start-line="212" selection-start-column="46" selection-end-line="212" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.73153406" vertical-offset="5155" max-vertical-offset="5967">
+          <caret line="210" column="49" selection-start-line="210" selection-start-column="49" selection-end-line="210" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1426751500632" expanded="true" signature="3243:3248" placeholder="DROP TABLE \..." />
-            <marker date="1426751500632" expanded="true" signature="3680:3803" placeholder="CREATE TABLE..CATEGORY..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4109" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="3834:4216" placeholder="CREATE TABLE..BOOK..." />
-            <marker date="1426751500632" expanded="true" signature="4248:4370" placeholder="CREATE TABLE..STOCK..." />
-            <marker date="1426751500632" expanded="true" signature="4404:4546" placeholder="CREATE TABLE..CASHIER..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4761" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4762" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4764" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4577:4865" placeholder="CREATE TABLE..BILL..." />
-            <marker date="1426751500632" expanded="true" signature="4908:5134" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5433" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5180:5479" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5736" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5737" placeholder="CREATE TABLE..CASH_LEDGER..." />
-            <marker date="1426751500632" expanded="true" signature="5516:5875" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="3199:3204" placeholder="DROP TABLE \..." />
+            <marker date="1426834928209" expanded="true" signature="3636:3759" placeholder="CREATE TABLE..CATEGORY..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4065" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="3790:4172" placeholder="CREATE TABLE..BOOK..." />
+            <marker date="1426834928209" expanded="true" signature="4204:4326" placeholder="CREATE TABLE..STOCK..." />
+            <marker date="1426834928209" expanded="true" signature="4360:4502" placeholder="CREATE TABLE..CASHIER..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4717" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4718" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4720" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4533:4821" placeholder="CREATE TABLE..BILL..." />
+            <marker date="1426834928209" expanded="true" signature="4864:5090" placeholder="CREATE TABLE..SALES_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5389" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5136:5435" placeholder="CREATE TABLE..PURCHASE_TRANSACTION..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5692" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5693" placeholder="CREATE TABLE..CASH_LEDGER..." />
+            <marker date="1426834928209" expanded="true" signature="5472:5831" placeholder="CREATE TABLE..CASH_LEDGER..." />
           </folding>
         </state>
       </provider>

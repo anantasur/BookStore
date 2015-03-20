@@ -62,7 +62,6 @@ public class DBconnection {
     }
 
     public Connection init() throws SQLException, ClassNotFoundException {
-        System.out.println("initialising");
         String userName = "emp_user";
         String password = "password";
         String url = "jdbc:oracle:thin:@localhost:1521:XE";
@@ -150,7 +149,6 @@ public class DBconnection {
                 " PRIMARY KEY (TRANSACTION_ID),"+
                 " P_Id NUMBER(6) REFERENCES PURCHASE_TRANSACTION(ID)," +
                 " TRANSACTOR NUMBER(2) REFERENCES CASHIER(ID))";
-        System.out.println(cashLedgerQuery);
         try {
             stmt = connection.createStatement();
             stmt.addBatch(categoriesQuery);
@@ -193,24 +191,24 @@ public class DBconnection {
             System.out.println("created user is " + s);
             s=oracleOperations.grantRightsOracle("storeManager");
             System.out.println("granting rights " + s);
-//            s=oracleOperations.deleteTable("STOCK");
-//            System.out.println("DELETED TABLE "+s);
-//            s=oracleOperations.deleteTable("SALES_TRANSACTION");
-//            System.out.println("DELETED TABLE "+s);
-//            s=oracleOperations.deleteTable("PURCHASE_TRANSACTION");
-//            System.out.println("DELETED TABLE "+s);
-//            s=oracleOperations.deleteTable("CASH_LEDGER");
-//            System.out.println("DELETED TABLE "+s);
-//            s=oracleOperations.deleteTable("BOOK");
-//            System.out.println("DELETED TABLE "+s);
-//            s=oracleOperations.deleteTable("CATEGORY");
-//            System.out.println("DELETED TABLE "+s);
-//            s=oracleOperations.deleteTable("BILL");
-//            System.out.println("DELETED TABLE "+s);
-//            s=oracleOperations.deleteTable("CASHIER");
-//            System.out.println("DELETED TABLE "+s);
+            s=oracleOperations.deleteTable("STOCK");
+            System.out.println("DELETED TABLE "+s);
+            s=oracleOperations.deleteTable("SALES_TRANSACTION");
+            System.out.println("DELETED TABLE "+s);
+            s=oracleOperations.deleteTable("CASH_LEDGER");
+            System.out.println("DELETED TABLE "+s);
+            s=oracleOperations.deleteTable("PURCHASE_TRANSACTION");
+            System.out.println("DELETED TABLE "+s);
+            s=oracleOperations.deleteTable("BOOK");
+            System.out.println("DELETED TABLE "+s);
+            s=oracleOperations.deleteTable("CATEGORY");
+            System.out.println("DELETED TABLE "+s);
+            s=oracleOperations.deleteTable("BILL");
+            System.out.println("DELETED TABLE "+s);
+            s=oracleOperations.deleteTable("CASHIER");
+            System.out.println("DELETED TABLE "+s);
             s=oracleOperations.createTables();
-            System.out.println("table Book created "+ s);
+            System.out.println("Book store tables created "+ s);
         } catch (Exception exception) {
             exception.printStackTrace();
         }
